@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url("src/project2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+        }
+
+        .head {
+            height: 100px;
+            width: 100%;
+        }
+
+        .header1 {
+            width: 12%;
+            height: 100px;
+            text-align: center;
+            float: left;
+        }
+
+        .headerdiv3 {
+            width: 88%;
+            height: 100px;
+            justify-content: center;
+            float: left;
+            animation: header 1s;
+            display: flex;
+            line-height: 100px;
+            align-items: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .l {
+            float: left;
+            list-style: none;
+        }
+
+        .a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 30px;
+            margin: 25px;
+        }
+
+        .ashish {
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 100%;
+            height: 130px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin: 0;
+        }
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        #projects {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #a78f74;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #055f0a;
+            font-size: 30px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            background: #e2daff;
+        }
+
+        .project h3 {
+            color: #35424a;
+        }
+
+        .project p {
+            margin: 5px 0;
+        }
+
+        /* Links */
+        a {
+            color: #35424a;
+            text-decoration: none;
+        }
+
+        .insta {
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #instagram {
+            /* display:flex; */
+            margin-bottom: 0%;
+            display: flex;
+            margin-left: 2px;
+            justify-content: center;
+        }
+
+        a:hover {
+           color: rgb(235, 152, 27);
+        }
+       /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="header1">
+            <img src="src/logo2.jpg" class="ashish">
+        </div>
+        <div class="headerdiv3">
+            <ul class="list">
+                <li class="l"><a href="index.html" class="a">Home</a></li>
+                <li class="l"><a href="About.html" class="a">About</a></li>
+                <li class="l"><a href="project.html" class="a">Projects</a></li>
+                <li class="l"><a href="services.html" class="a">Services</a></li>
+                <li class="l"><a href="#instagram" class="a">Contact us</a></li>
+                <li class="l"><a href="resume.html" class="a">Resume</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>Banking System</h3>
+                <p><strong>Description:</strong> A comprehensive banking system application developed to handle core
+                    banking operations such as account creation, deposits, withdrawals, balance inquiries,
+                    and fund transfers. It also includes features for generating account statements and managing user
+                    authentication.</p>
+                <p><strong>Technologies Used:</strong> Python,Sql</p>
+                <p><strong>What you can do :</strong>
+                <ul class="list">
+                    <li>Create Your Account </li>
+                    <li>Access It when you fill right name and password</li>
+                    <li>Deposite money</li>
+                    <li>withdrawal meney </li>
+                    <li>See tranjection History</li>
+                    <li>Delete your account</li>
+                    <li>Here all changes saved permanentely</li>
+                </ul>
+                </p>
+                <p><strong>Challenges:</strong> Faced challenges with state management with saved permanentely data,
+                    which I resolved by uploading(connecting) Exel and sql file </p>
+                <p><strong>Outcome:</strong> The app was successfully deployed and received positive feedback from users
+                    for its intuitive design and functionality. It has over 200 active users and continues to grow.</p>
+                <p><strong>Github Visuals:</strong> <a href="#">Banking System</a></p>
+            </div>
+
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p><strong>Description:</strong> Developed a fully functional e-commerce website that allows users to
+                    browse products, add them to a cart, and complete purchases securely.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL.</p>
+                <p><strong>My Role:</strong> Lead developer responsible for the front-end design and back-end
+                    integration. Collaborated with a designer to create a user-friendly interface.</p>
+                <p><strong>Challenges:</strong> Encountered issues with payment gateway integration, which I overcame by
+                    thoroughly reviewing the API documentation and conducting extensive testing.</p>
+                <p><strong>Outcome:</strong> The website launched successfully and achieved a 15% conversion rate in the
+                    first month. It has been praised for its user experience and design.</p>
+                <p><strong>Github Visuals:</strong> <a href="#">E-commerce Project</a> </p>
+            </div>
+
+            <div class="project">
+                <h3>Blogging Platform</h3>
+                <p><strong>Description:</strong> Created a blogging platform where users can register, create, edit, and
+                    publish their blogs. The platform includes features like comments, likes, and user profiles.</p>
+                <p><strong>Technologies Used:</strong> Django, Python, SQLite, Bootstrap.</p>
+                <p><strong>My Role:</strong> Developed the back-end using Django and created the front-end using
+                    Bootstrap for responsive design. Implemented user authentication and authorization.</p>
+                <p><strong>Challenges:</strong> Faced challenges with user authentication and session management, which
+                    I resolved by utilizing Django's built-in authentication system.</p>
+                <p><strong>Outcome:</strong> The platform has over 100 registered users and has hosted more than 300
+                    blog posts. It has fostered a community of writers and readers.</p>
+                <p><strong>Github Visuals:</strong> <a href="#">blogging project</a></p>
+            </div>
+        </section>
+        <div id="instagram">
+            <a href="mailto:rastogiashish836@gmail.com" class="insta"><img src="src/gmail.png" class="insta"></a>
+            <a href="https://www.linkedin.com/in/ashish-rastogi-77153331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="insta"><img src="src/link3.jpg" class="insta"></a>
+            <a href="https://www.instagram.com/ashishrastogi270?igsh=YzljYTk1ODg3Zg==" class="insta"><img
+                    src="src/insta1.png" class="insta"></a>
+            <a href="https://github.com/AshishRastogi123/Ashish-Kumar-Rastogi" class="insta"><img src="src/git2.png"
+                    class="insta"></a>
+            <a href="https://www.facebook.com/profile.php?id=100078185538436" class="insta"><img src="src/facebook.png"
+                    class="insta"></a>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

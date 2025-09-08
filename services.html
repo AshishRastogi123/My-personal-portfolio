@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("src/abstract-blur.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .head {
+            height: 100px;
+            width: 100%;    
+        }
+        .header1{   
+            width: 12%;
+            height: 100px;       
+            text-align: center;    
+            float: left;
+        }
+        
+        .headerdiv3{
+            width: 88%;
+            height: 100px;
+            justify-content: center;
+            float: left;
+            animation: header 1s;
+            display:flex;
+            line-height: 100px;  
+            align-items: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .li{
+            float: left;
+            list-style: none;     
+        }
+        .a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-size: 30px; 
+            margin: 25px;   
+        }
+        .ashish{
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 100%;
+            height: 130px;
+            border-radius: 50%; 
+        }
+        #about{
+            margin-top: 6%;
+            float:left;
+            display: flex;
+            margin-bottom: 0%;
+             /* border-radius: 10px; */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+        }
+    /* Removed duplicate and misplaced <style> tag and merged styles correctly */
+        .services {
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+            /* flex-wrap: wrap; */
+        }
+        #services-title {
+            text-align: center;
+            font-size: 3rem;
+            color: #dbf01e;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .service {
+            background: #f2d4d4;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 60px;
+            margin-right: 60px;
+            flex: 1 1 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            color: #35424a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #35424a;
+            text-decoration: none;
+        }
+        .photo img {
+            margin-top: 120px;
+            float: right;
+            ;
+            height: 500px;
+            width: 500px;
+            margin-right: 50px;
+            border-radius: 50%;
+        }
+
+        .insta {
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            margin: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #instagram {
+            margin-bottom: 0%;
+            display: flex;
+            margin-left: 2px;
+            justify-content: center;
+        }
+
+        .footer p {
+            height: 80px;
+            width: 100%;
+            color: white;
+            font-size: 22px;
+            line-height: 80px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            background-color: rgb(161, 12, 12);
+        }
+
+        footer img {
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="header1">
+            <img src="src/logo2.jpg" class="ashish"></div>
+        <div class="headerdiv3">  
+            <ul class="list">
+                <li class="li"><a href="index.html" class="a">Home</a></li>
+                <li class="li"><a href="About.html"class="a">About</a></li>
+                <li class="li"><a href="project.html"class="a">Projects</a></li>
+                <li class="li"><a href="services.html"class="a">Services</a></li>
+                <li class="li"><a href="#instagram"class="a">Contact us</a></li>
+                <li class="li"><a href="resume.html" class="a">Resume</a></li>
+            </ul>
+        </div>
+    </header>
+    
+
+
+    <main>
+        <section id="services" aria-labelledby="services-title">
+            <h1 id="services-title">Web Developer Services</h1>
+            <div class="services-grid">
+                <article class="service">
+                    <h2>Website Development</h2>
+                    <p>I build modern, responsive, and user-friendly websites using the latest technologies like HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. My goal is to deliver websites that not only look great but also perform efficiently across all devices. Whether it’s a personal portfolio, a business site, or a learning platform, 
+                        I ensure clean code, smooth navigation, and optimized performance.</p>
+                </article>
+                <article class="service">
+                    <h2>E-commerce Solutions</h2>
+                    <p>I develop custom and user-friendly e-commerce websites that help businesses sell products online with ease. From product listings and shopping carts to secure payment integration, I focus on creating smooth and reliable online shopping experiences. My goal is to design platforms that are fast, responsive, 
+                        and tailored to the unique needs of each business.</p>
+                </article>
+                <article class="service">
+                    <h2>Data Analytics</h2>
+                    <p>I provide data-driven insights by analyzing and interpreting data to help businesses make smarter decisions. Using tools like Python, Pandas, NumPy, and visualization libraries (Matplotlib, Seaborn, Power BI, etc.), I transform raw data into meaningful reports, dashboards, and visualizations. 
+                        My focus is on finding trends, patterns, 
+                        and actionable strategies to improve business performance.</p>
+                </article>
+                <article class="service">
+                    <h2>Machine Learning Model</h2>
+                    <p>I design and build machine learning models that can analyze data, recognize patterns, and make predictions. Using technologies like Python, Scikit-learn, TensorFlow, and Pandas, I create solutions such as classification, regression, and predictive analytics. 
+                        My focus is on building models that are accurate, efficient, and tailored to real-world business problems..</p>
+                </article>
+                <article class="service">
+                    <h2>Content Management Systems</h2>
+                    <p>I develop and customize websites using popular CMS platforms like WordPress, Drupal, and Joomla. With CMS solutions, businesses can easily manage and update their content without technical knowledge. I ensure the websites are responsive, secure, 
+                        and tailored to each client’s needs, from blogs and portfolios to business and e-commerce sites..</p>
+                </article>
+                <article class="service">
+                    <h2>Consultation Services</h2>
+                    <p>I provide consultation services to help individuals and businesses choose the right digital solutions. From selecting the best technology stack to planning website structure, e-commerce strategy, data analytics approach, or machine learning integration — I guide clients in making informed decisions. 
+                        My goal is to simplify technical challenges and offer solutions tailored to business needs..</p>
+                </article>
+            </div>
+        </section>
+        <div id="instagram">
+            <a href="mailto:rastogiashish836@gmail.com" class="insta"><img src="src/gmail.png" class="insta"></a> 
+            <a href="https://www.linkedin.com/in/ashish-rastogi-77153331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="insta"><img src="src/link3.jpg" class="insta"></a> 
+            <a href="https://www.instagram.com/ashishrastogi270?igsh=YzljYTk1ODg3Zg==" class="insta"><img src="src/insta1.png" class="insta"></a>
+            <a href="https://github.com/AshishRastogi123/Ashish-Kumar-Rastogi" class="insta"><img src="src/git2.png" class="insta"></a>
+            <a href="https://www.facebook.com/profile.php?id=100078185538436" class="insta"><img src="src/facebook.png" class="insta"></a>
+        </div>
+    </main>
+    <footer>
+        <div class="instagr">
+            <p>&copy; 2021 My Portfolio</p>
+        </div>
+    </footer>
+
+</body>
+</html>
